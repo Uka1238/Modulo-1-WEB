@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href=""/>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+  <nav class="cabecalho__menu">
+        <a class="cabecalho__links" href="index.html"> Home <a>
+        <a class="cabecalho__links" href="sobre.html" target="_blank">Sobre mim</a>
+        <a class="cabecalho__links" href="cadastro.html" target="_blank">Cadastro</a>
+        <a class="cabecalho__links" href="Produtos.html" target="_blank">Produtos</a>
+        <a class="cabecalho__links" href="Falecomigo.html" target="_blank">Fale Comigo</a>
+  </nav>
+    </header>
+    <main class="apresentacao__cadastro">
+      <section class="apresentacao__conteudo__cadastro">
+        <h1 class="apresentacao__conteudo__titulo__h1__cadastro">
+          <a class="bemvindo"> Bem-vindo! </a>Cadastre-se e aproveite</h1>
+        <br/>
+        <form action="Cadastro-inpt" class="Cadastro-inpt">
+        <ul>
+          <li> <input class="input-cadastro" class="form"  id="nome" placeholder="Nome Completo"></li>
+          <div class="erro-msg" id="erro-nome"></div>
+          <li> <input class="input-cadastro" class="form" id="email" placeholder="Email"></li>
+          <div class="erro-msg" id="erro-email"></div>
+          <li> <input class="input-cadastro" class="form" id="senha" placeholder="Senha"></li>
+          <div class="erro-msg" id="erro-senha"></div>
+          <li> <a class="apresentacao__Cadastrar__agora"href="index.html" target="_blank">Cadastrar agora</a></li>
+        </ul>
+        </form>
+      </section>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+  
+</html>

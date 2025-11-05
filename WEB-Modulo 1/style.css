@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: #f6f6f6;
+}
+.cabecalho {
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+.cabecalho__menu {
+  padding: 10px;
+  justify-content: center;
+}
+
+.cabecalho__links {
+  color: red;
+  font-size: 15px;
+  padding: 4px 40px 6px 40px;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 600px;
+}
+.cabecalho__links:hover {
+  color: white;
+}
+.titulo-destaque {
+  color: #ed1008;
+}
+
+.apresentacao {
+  display: flex;
+  padding: 10% 0% 14%;
+  justify-content: space-evenly;
+  background: linear-gradient(90deg, #000000, #15202b);
+}
+.apresentacao__cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  width: 360px;
+  height: 500px;
+  padding: 0px 400px 0px;
+}
+.apresentacao__conteudo__cadastro {
+  background: linear-gradient(90deg, #000000, #15202b);
+  border-radius: 8px;
+  margin: auto;
+  padding: 20px;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.bemvindo {
+  justify-content: center;
+  display: flex;
+}
+ul {
+  list-style: none;
+}
+
+.Cadastro-inpt{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.input-cadastro{
+padding:10px;
+margin: 3px;
+}
+
+.apresentacao__Cadastrar__agora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  margin: 20px 8px;
+  padding: 10px;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(206, 3, 3);
+  font-weight: 900;
+  border: solid rgb(85, 85, 85) 0.01px;
+}
+.apresentacao__Cadastrar__agora:hover{
+  background: black;
+}
+.MainProdutos{
+      display: grid; /* Define que o container usará Grid Layout */
+      grid-template-columns: 1fr 1fr; /* 2 colunas */
+      gap: 20px; /* espaço entre os produtos */
+      max-width: 900px; /* largura máxima */
+      margin: auto; /* centralizar na tela */
+      padding: 20px;
+}
+.Section__Produtos:hover{
+    background: rgba(255,255,255,0.1);
+    transition: 0.05s;
+}
+.Section__Produtos{
+  border: 1px solid #ffffff; /* borda cinza */
+  padding: 15px; /* espaço interno */
+  text-align: center; /* centraliza conteúdo */
+  border-radius: 8px; /* cantos arredondados */
+   background: linear-gradient(90deg, #000000, #15202b); /* fundo gradiente */
+}
+.imgProdutos{
+    max-width: 100%; /* ocupa largura total */
+    height: auto; /* mantém proporção */
+    border-radius: 6px; /* cantos arredondados */
+ }
+.h2__produtos {
+  margin: 10px 0 5px; /* espaço externo */
+  font-size: 18px; /* tamanho título */
+  
+}
+.StrongTextoProdutos{
+  color: #2a7; /* cor verde */
+  font-size: 16px; /* tamanho preço */
+}
+.apresentacao__foto img {
+  width: 300px;
+  height: auto;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+
+.apresentacao__conteudo {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  background: #000, #15202b;
+  border-radius: 10px;
+  padding: 10px 15px 0px;
+  background: #0b0a0a;
+}
+
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 0 0 0px;
+  margin-bottom: 20px;
+}
+.apresentacao__h3 {
+  margin-bottom: 20px;
+}
+.apresentacao__links {
+  display: flex;
+  gap: 30px;
+  padding: 30px 0 15px 0;
+}
+.apresentacao__links__link {
+  background-color: #1f1f20;
+  color: beige;
+  width: 300px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.apresentacao__links__link:hover {
+  background-color: rgb(43, 39, 39);
+}
+
+.Rodape {
+  text-align: center;
+  background-color: black;
+  padding: 15px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
